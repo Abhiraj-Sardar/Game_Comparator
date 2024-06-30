@@ -1,0 +1,43 @@
+.slider{
+    background-color: black;
+    width: 100%;
+    /* overflow-x: hidden; */
+    display: flex;
+    
+}
+
+.slider #img-slide1{
+    /* background-color: red; */
+    height:850px;
+    width: 100%;
+    background-image: url("../../Assets/img/bat.jpg");
+    background-size: cover;
+}
+
+.slider #img-slide2{
+    /* background-color: #29c421; */
+    height:850px;
+    width: 0%;
+    /* display: none; */
+    background-image: url("../../Assets/img/game1.jpg");
+    background-size: cover;
+}
+
+.slider #img-slide3{
+    /* background-color: #c89f17; */
+    height:850px;
+    width: 0%;
+    /* display: none; */
+    background-image: url("../../Assets/img/game2.png");
+    background-size: cover;
+}
+
+@media screen and (max-width:480px) {
+    /* .slider{
+        height
+    } */
+
+    /* .slider #img-slide1,#img-slide2,#img-slide3{
+        width: calc(100% - 100px);
+    } */
+}

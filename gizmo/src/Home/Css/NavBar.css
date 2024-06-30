@@ -1,0 +1,38 @@
+.nav-container{
+    background-color: #333;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav-container img{
+    height:100px;
+    width:200px;
+}
+.nav-container nav{
+    display: inline-block;
+    color:aliceblue;
+    /* background-color: red; */
+}
+
+.nav-container nav ul{
+    display: flex;
+    list-style: none;
+    gap:3rem;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-container .btn{
+    margin-left: 5rem;
+    float: right;
+    padding:12px 24px;
+}
+
+@media screen and (max-width:480px) {
+    .nav-container{
+        width: max-content;
+    }
+}
