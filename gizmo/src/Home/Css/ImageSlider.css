@@ -12,6 +12,9 @@
     width: 100%;
     background-image: url("../../Assets/img/bat.jpg");
     background-size: cover;
+    
+    transition: 2s;
+    animation-iteration-count: infinite;
 }
 
 .slider #img-slide2{
@@ -21,6 +24,8 @@
     /* display: none; */
     background-image: url("../../Assets/img/game1.jpg");
     background-size: cover;
+    transition: 2s;
+    animation-iteration-count: infinite;
 }
 
 .slider #img-slide3{
@@ -30,14 +35,43 @@
     /* display: none; */
     background-image: url("../../Assets/img/game2.png");
     background-size: cover;
+    transition: 2s;
+    animation-iteration-count: infinite;
 }
 
 @media screen and (max-width:480px) {
-    /* .slider{
-        height
-    } */
-
-    /* .slider #img-slide1,#img-slide2,#img-slide3{
-        width: calc(100% - 100px);
-    } */
+    .slider{
+        width: 100%;
+        
+    }
+    .slider #img-slide1{
+        /* background-color: red; */
+        height:300px;
+        width: 100%;
+        background-image: url("../../Assets/img/bat.jpg");
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        
+    }
+    
+    .slider #img-slide2{
+        /* background-color: #29c421; */
+        height:300px;
+        width: 0%;
+        background-image: url("../../Assets/img/game1.jpg");
+        background-size: cover;
+       background-position: center;
+       background-blend-mode: multiply;
+    }
+    
+    .slider #img-slide3{
+        /* background-color: #c89f17; */
+        height:300px;
+        width: 0%;
+        background-image: url("../../Assets/img/game2.png");
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+    }
 }

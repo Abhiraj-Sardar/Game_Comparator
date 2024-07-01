@@ -1,0 +1,156 @@
+.banner1{
+ background-color: #333;
+}
+
+.banner1 .banner-quote{
+    display: flex;
+    height: 500px;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #615e5e;
+    color: aliceblue;
+    font-size: 64px;
+}
+
+
+.banner1 .banner-quote span::selection{
+    color:aquamarine;
+}
+.banner1 .banner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner1 .banner-img img{
+    height:300px;
+}
+
+.banner2{
+    
+    background-color: #333;
+}
+.banner2 .gallery{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:12px;
+    
+}
+
+.banner2 .gallery>div{
+    background-color: #333;
+    height: 200px;
+}
+
+.banner2 .gallery .img-1{
+    background-image: url("../../Assets/img/gtav.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+
+
+ 
+
+
+
+.banner2 .gallery .img-2{
+    background-image: url("../../Assets/img/spider.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+.banner2 .gallery .img-3{
+    background-image: url("../../Assets/img/wwe.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+.banner2 .gallery .img-4{
+    background-image: url("../../Assets/img/tekken.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+.banner2 .gallery .img-5{
+    background-image: url("../../Assets/img/free.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+.banner2 .gallery .img-6{
+    background-image: url("../../Assets/img/nba.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+.banner2 .gallery .img-7{
+    background-image: url("../../Assets/img/granny2.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+.banner2 .gallery .img-8{
+    background-image: url("../../Assets/img/gtasan.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.banner2 .gallery .img-9{
+    background-image: url("../../Assets/img/nfs.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.banner2 .gallery .img-10{
+    background-image: url("../../Assets/img/dls.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.banner2 .gallery .img-11{
+    background-image: url("../../Assets/img/among.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.banner2 .gallery .img-12{
+    background-image: url("../../Assets/img/poppy.jpg");
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.banner2 .gallery div{
+    cursor: pointer;
+}
+
+.banner2 .gallery > div .img-text{
+    background-color: transparent;
+    position: absolute;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    bottom:-100px;
+    transition: 1s;
+
+}
+.banner2 .gallery > div .img-text h5{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:azure;
+}
+.banner2 .gallery > div:hover .img-text{
+    bottom:0px;
+    backdrop-filter:blur(12px);
+}
