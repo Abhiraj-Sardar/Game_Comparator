@@ -1,6 +1,6 @@
 import './App.css';
 import GameList from './GameListing/GameList';
-
+import Home from "./Home/Home";
 
 function App() {
   return (

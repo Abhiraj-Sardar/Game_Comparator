@@ -21,7 +21,7 @@ const SearchBar = () => {
             const result = await response.json();
             setData(result);
             if(state==0) setState(1);
-            console.log(typeof(data));
+            console.log(data);
         } catch (error) {
             console.error(error);
         }
@@ -47,9 +47,21 @@ const SearchBar = () => {
             </form>
 
             <div className="container-fluid search-content">
-                    <Card/>
                     {
-                        
+                        data.map((item,i)=>{
+                            return (
+                                <Card 
+                                key={i} 
+                                title={item.title}
+                                type={item.type}
+                                users={item.users}
+                                worth={item.worth}
+                                img={item.thumbnail}
+                                platforms={item.platforms}
+                                status={item.status}    
+                                />
+                            )
+                        })
                     }
             </div>
             
