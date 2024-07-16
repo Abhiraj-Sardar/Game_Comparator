@@ -59,6 +59,8 @@ const SearchBar = () => {
                                 img={item.thumbnail}
                                 platforms={item.platforms}
                                 status={item.status}    
+                                pubDate={item.published_date}
+                                endDate={item.end_date}
                                 />
                             )
                         })
